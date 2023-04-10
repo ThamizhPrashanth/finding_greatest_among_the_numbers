@@ -1,0 +1,43 @@
+# FIND THE GREATEST AMONG THE FIVE USING IF, ELSE, ELIF STATEMENTS AND BY NOT USING AND
+
+a = int(input("give value for a"))
+b = int(input("give value for b"))
+c = int(input("give value for c"))
+d = int(input("give value for d"))
+e = int(input("give value for e"))
+
+if a>b:
+  if a>c:
+    if a>d:
+      if a>e:
+        print("a is greater")
+  else:
+    print("e is greater")
+elif b>a:
+  if b>c:
+    if b>d:
+      if b>e:
+        print("b is greater")
+  else:
+    print("e is greater")
+elif c>a:
+  if c>b:
+    if c>d:
+      if c>e:
+        print("c is greater")
+  else:
+    print("e is greater")
+elif d>a:
+  if d>b:
+    if d>c:
+      if d>e:
+        print("d is greater")
+  else:
+    print("e is greater")
+elif e>a:
+  if e>b:
+    if e>c:
+      if e>d:
+        print("e is greater")
+  else:
+    print("d is greater")
